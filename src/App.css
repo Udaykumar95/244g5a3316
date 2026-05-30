@@ -1,0 +1,142 @@
+.app {
+  min-height: 100vh;
+}
+
+.main-container {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 34px 0 56px;
+}
+
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.page-title {
+  margin: 0;
+  color: #101827;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+
+.page-subtitle {
+  max-width: 720px;
+  margin: 8px 0 0;
+  color: #65758b;
+  line-height: 1.6;
+}
+
+.notification-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 20px;
+}
+
+.status-box {
+  border: 1px solid rgba(122, 139, 161, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 22px;
+  color: #526173;
+  box-shadow: 0 14px 34px rgba(18, 33, 55, 0.08);
+}
+
+.status-box.error {
+  border-color: #f2b8b5;
+  color: #8c1d18;
+  background: #fff7f6;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-button,
+.pager-button {
+  min-height: 40px;
+  border: 1px solid rgba(89, 112, 145, 0.24);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #24344d;
+  padding: 0 16px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(18, 33, 55, 0.06);
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filter-button:hover,
+.pager-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  border-color: #1f6feb;
+  color: #1f6feb;
+  box-shadow: 0 12px 24px rgba(31, 111, 235, 0.14);
+}
+
+.filter-button.active {
+  border-color: #1f6feb;
+  background: linear-gradient(135deg, #1f6feb, #174ea6);
+  color: #ffffff;
+  box-shadow: 0 14px 30px rgba(31, 111, 235, 0.25);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.pager-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.page-count {
+  min-width: 78px;
+  text-align: center;
+  color: #526173;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .main-container {
+    width: min(100% - 24px, 1120px);
+    padding-top: 22px;
+  }
+
+  .page-header {
+    display: block;
+  }
+
+  .page-title {
+    font-size: 1.55rem;
+  }
+
+  .toolbar {
+    align-items: stretch;
+  }
+
+  .filter-buttons,
+  .filter-button {
+    width: 100%;
+  }
+}

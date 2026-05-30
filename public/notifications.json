@@ -1,0 +1,76 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "type": "Placement",
+      "message": "Infosys placement drive registration closes tonight at 8 PM.",
+      "timestamp": "2026-05-30T09:45:00"
+    },
+    {
+      "id": 2,
+      "type": "Result",
+      "message": "Semester 6 revaluation results are now available on the portal.",
+      "timestamp": "2026-05-30T08:30:00"
+    },
+    {
+      "id": 3,
+      "type": "Event",
+      "message": "AI workshop starts at Seminar Hall 2 from 2 PM today.",
+      "timestamp": "2026-05-29T14:00:00"
+    },
+    {
+      "id": 4,
+      "type": "Placement",
+      "message": "TCS Ninja assessment slot booking has opened for eligible students.",
+      "timestamp": "2026-05-29T11:20:00"
+    },
+    {
+      "id": 5,
+      "type": "Result",
+      "message": "Internal assessment marks for DBMS have been published.",
+      "timestamp": "2026-05-28T16:10:00"
+    },
+    {
+      "id": 6,
+      "type": "Event",
+      "message": "Code sprint team registration begins tomorrow morning.",
+      "timestamp": "2026-05-28T10:15:00"
+    },
+    {
+      "id": 7,
+      "type": "Placement",
+      "message": "Accenture pre-placement talk is scheduled for Friday.",
+      "timestamp": "2026-05-27T17:40:00"
+    },
+    {
+      "id": 8,
+      "type": "Result",
+      "message": "Machine Learning lab final scores have been released.",
+      "timestamp": "2026-05-27T12:30:00"
+    },
+    {
+      "id": 9,
+      "type": "Event",
+      "message": "Cultural club auditions will be held in the auditorium.",
+      "timestamp": "2026-05-26T15:25:00"
+    },
+    {
+      "id": 10,
+      "type": "Placement",
+      "message": "Resume verification desk is open near the training cell.",
+      "timestamp": "2026-05-26T09:00:00"
+    },
+    {
+      "id": 11,
+      "type": "Result",
+      "message": "Data Structures supplementary exam results are published.",
+      "timestamp": "2026-05-25T18:45:00"
+    },
+    {
+      "id": 12,
+      "type": "Event",
+      "message": "Entrepreneurship cell guest lecture begins at 11 AM.",
+      "timestamp": "2026-05-25T07:50:00"
+    }
+  ]
+}
